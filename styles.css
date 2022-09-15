@@ -1,0 +1,68 @@
+body {
+    background-image:url(sunny.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* opacity: 0.75; */
+}
+h1 {
+    font-size: 70px;
+    font-family: helvetica;
+}
+.heading {
+    text-align: center;
+}
+.loc {
+    display:inline-block;
+}
+.card {
+    display: block;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 485px;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #333232;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 100px;
+    padding: 10px 10px;
+    text-align: justify;
+    
+}
+.ref {
+    text-align: center;
+    align-items: center;
+    padding: 2px 20px;
+}
+.ref:after {
+    content: "";
+    display: table;
+    clear: both;
+
+    
+}
+p {
+    font-size: 20px;
+    font-family: helvetica;
+}
+.main {
+    font-size: 70px;
+}
+li {
+    font-size: 18px;
+    font-family: helvetica;
+    list-style-type: none;
+
+}
+p .icon {
+    font-size: 25px;
+}
+span {
+    font-size: 25px;
+}
